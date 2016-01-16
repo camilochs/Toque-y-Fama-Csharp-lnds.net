@@ -11,23 +11,23 @@ class Program
     {
         public uint CountToque { get; set; }
         public uint CountFama { get; set; }
-        public void Start(List<uint> secuenceRandom, List<uint> secuenceInput)
+        public void Start(List<uint> sequenceRandom, List<uint> sequenceInput)
         {
-            string printSecuence = String.Empty;
-            secuenceInput.ForEach(n => printSecuence += n.ToString() + ", ");
-            printSecuence = printSecuence.Remove(printSecuence.Length - 2, 2);
-            Console.WriteLine("tu ingresaste [" + printSecuence + "]");
+            string printSequence = String.Empty;
+            sequenceInput.ForEach(n => printSequence += n.ToString() + ", ");
+            printSequence = printSequence.Remove(printSequence.Length - 2, 2);
+            Console.WriteLine("tu ingresaste [" + printSequence + "]");
             int i = 0;
             while (i < NUM_ELEMENT)
             {
-                if (secuenceInput[i] == secuenceRandom[i]) CountFama++;
-                if (secuenceInput.Contains(secuenceRandom[i])) CountToque++;
+                if (sequenceInput[i] == sequenceRandom[i]) CountFama++;
+                if (sequenceInput.Contains(sequenceRandom[i])) CountToque++;
                 i++;
             }
             Console.WriteLine("resultado: {0} Toques {1} Famas", CountToque, CountFama);
         }
     }
-    private static List<uint> RandomSecuence()
+    private static List<uint> RandomSequence()
     {
         var nList = new List<uint>();
         var digits = new List<uint>() { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
@@ -72,14 +72,14 @@ Si has adivinado uno de los dígitos de la secuencia, pero en una posición dist
         bool check = Int32.TryParse(cnumber, out number);
         if (check)
         {
-            var secuence = ValidationList((uint)number);
-            if (secuence.Count == 0)
+            var sequence = ValidationList((uint)number);
+            if (sequence.Count == 0)
             {
                 Console.WriteLine("error!");
             }
             else
             {
-                new ToqueFama().Start(RandomSecuence(), secuence);
+                new ToqueFama().Start(RandomSequence(), sequence);
             }
         }
         InitGame();
