@@ -82,6 +82,10 @@ Si has adivinado uno de los dígitos de la secuencia, pero en una posición dist
                 new ToqueFama().Start(RandomSequence(), sequence);
             }
         }
+        else
+        {
+            Console.WriteLine("error!");
+        }
         InitGame();
         Console.ReadLine();
     }
