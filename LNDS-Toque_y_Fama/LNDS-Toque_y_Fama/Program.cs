@@ -29,16 +29,16 @@ class Program
     }
     private static List<uint> RandomSequence()
     {
-        var nList = new List<uint>();
         var digits = new List<uint>() { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         var random = new Random();
-        while(nList.Count < NUM_ELEMENT)
+        for(int i = digits.Count - 1; i > 0; i--)
         {
-            int ri = random.Next(digits.Count);
-            nList.Add(digits[ri]);
-            digits.RemoveAt(ri);
+            int r = random.Next(i + 1);
+            uint tmp = digits[r];
+            digits[r] = digits[i];
+            digits[i] = tmp;
         }
-        return nList;
+        return digits.GetRange(0, 5);
     }
     private static List<uint> ValidationList(uint number)
     {

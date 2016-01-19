@@ -3,3 +3,9 @@ c:\users\nicolás\documents\visual studio 2015\Projects\LNDS-Toque_y_Fama\LNDS-T
 c:\users\nicolás\documents\visual studio 2015\Projects\LNDS-Toque_y_Fama\LNDS-Toque_y_Fama\bin\Debug\LNDS-Toque_y_Fama.pdb
 c:\users\nicolás\documents\visual studio 2015\Projects\LNDS-Toque_y_Fama\LNDS-Toque_y_Fama\obj\Debug\LNDS-Toque_y_Fama.exe
 c:\users\nicolás\documents\visual studio 2015\Projects\LNDS-Toque_y_Fama\LNDS-Toque_y_Fama\obj\Debug\LNDS-Toque_y_Fama.pdb
+C:\Users\Nicolás\Documents\blog\LNDS-Toque_y_Fama\LNDS-Toque_y_Fama\bin\Debug\LNDS-Toque_y_Fama.exe.config
+C:\Users\Nicolás\Documents\blog\LNDS-Toque_y_Fama\LNDS-Toque_y_Fama\obj\Debug\LNDS-Toque_y_Fama.exe
+C:\Users\Nicolás\Documents\blog\LNDS-Toque_y_Fama\LNDS-Toque_y_Fama\obj\Debug\LNDS-Toque_y_Fama.pdb
+C:\Users\Nicolás\Documents\blog\LNDS-Toque_y_Fama\LNDS-Toque_y_Fama\bin\Debug\LNDS-Toque_y_Fama.exe
+C:\Users\Nicolás\Documents\blog\LNDS-Toque_y_Fama\LNDS-Toque_y_Fama\bin\Debug\LNDS-Toque_y_Fama.pdb
+C:\Users\Nicolás\Documents\blog\LNDS-Toque_y_Fama\LNDS-Toque_y_Fama\obj\Debug\LNDS-Toque_y_Fama.csprojResolveAssemblyReference.cache
